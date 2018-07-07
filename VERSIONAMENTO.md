@@ -1,4 +1,4 @@
-> [Voltar](README.md)
+> [Home](README.md)
 
 #### Versionamento:
 
@@ -26,4 +26,4 @@
         Port 443
       ```
 
-> [Voltar](README.md)
+> [Home](README.md)
