@@ -19,11 +19,17 @@
   - Podemos resolver usando o seguinte:
     - Abrir um console do *Git Bash*;
     - Digitar `nano  ~/.ssh/config`;
-    - E depois:
+    - E depois, para o **Bitbucket**:
       ```
       Host bitbucket.org
         Hostname altssh.bitbucket.org
         Port 443
       ```
+	- Para o **GitHub**
+	  ```
+	  Host github.com
+	    Hostname ssh.github.com
+		Port 443
+	  ```
 
 > [Home](README.md)
