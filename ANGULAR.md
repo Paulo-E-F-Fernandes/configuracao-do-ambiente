@@ -11,10 +11,14 @@
 * [npm](https://www.npmjs.com/). O *npm* é instalado junto com o *node.js*. O *npm* é um gerenciador de pacotes que permiti instalar bibliotecas e ferramentas em nossos projetos;
   - Para verificar se o *npm* foi instalado é só usar o seguinte comando no terminal: `npm -v`.
 * [Angular CLI](https://cli.angular.io/). Ferramenta de linha de comando para ajudar a criar aplicações *Angular* seguindo as melhores práticas;
-  - Para instalar usar o seguinte comando no terminal: `npm install -g @angular/cli`;
+  - Para instalar, use o seguinte comando no terminal: `npm install -g @angular/cli`;
     - -g = global
   - Para verificar se o *npm* está instalado: `ng -v`;
   - Para criar um novo projeto: `ng new [NOME_PROJETO]`; 
+	- Pode ocorrer problemas de vulnerabilidade de algumas libs, para isso executamos os comandos abaixo nas quais possuem problema até o momento:
+	  - (11/08/2018) `npm i hoek --save`
+	  - (11/08/2018) `npm i adm-zip --save`
+	  - (11/08/2018) `npm i parsejson --save`
   - Para gerar novos componentes: `ng g c [NOME_COMPONENTE] --spec=false`;
     - `--spec=false` serve para não gerar os arquivos de teste.
   - Para inicia um servidor de testes: `ng serve`. 
