@@ -6,6 +6,14 @@
 * Para gerar a chave ssh podemos usar os seguintes passos:
   - https://help.github.com/enterprise/2.13/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows;
 * [GitKraken](https://www.gitkraken.com/) - GUI para o Git;
+* Após a criação do repositório remoto no `GitHub`, `BitBucket` ou qualquer outro repositório remoto, é necessário criar o repositório local e adicionar o endereço para o repositório remoto;
+  - Entrar no diretório do projeto e executar os comandos:
+    - `git init` - Para iniciar o repositório git local;
+	- `git remote add [NOME_REPOSITÓRIO_REMOTO] [URL_REPOSITÓRIO_REMOTO]`;
+	  - **Ex.:**
+	  - `git remote add origin git@github.com:Paulo-E-F-Fernandes/configuracao-do-ambiente.git` para **SSH**;
+	  - `git remote add origin https://github.com/Paulo-E-F-Fernandes/configuracao-do-ambiente.git` para **HTTPS**.
+	- `git remote -v` - Para verificar os repositórios remotos adicionados;
 * **OBS.:**
   - Caso ocorrer algum problema parecido com o abaixo:
     ```
