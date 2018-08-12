@@ -8,7 +8,7 @@
 * [Font Awesome](https://fontawesome.com/);
 * Instalar o **Font Awesome** utilizando o **npm**:
   - `npm install font-awesome --save`
-* Adicionar os estilos **css** no `**angular.json**` dentro de **styles**:
+* Adicionar os estilos **css** no `**angular.json**` dentro da propriedade **styles**:
   - "node_modules/font-awesome/css/font-awesome.min.css"
   - "node_modules/primeng/resources/primeng.min.css"
   - "node_modules/primeng/resources/themes/omega/theme.css"
