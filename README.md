@@ -5,3 +5,5 @@
 > [Versionamento](VERSIONAMENTO.md)
 
 > [Angular](ANGULAR.md)
+
+> [PrimeNG](PRIMENG.md)
