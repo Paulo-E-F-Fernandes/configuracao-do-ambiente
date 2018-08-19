@@ -19,8 +19,13 @@
 	  - (11/08/2018) `npm i hoek --save`
 	  - (11/08/2018) `npm i adm-zip --save`
 	  - (11/08/2018) `npm i parsejson --save`
-  - Para gerar novos componentes: `ng g c [NOME_COMPONENTE] --spec=false`;
+  - Para gerar novos componentes: `ng generate component [NOME_DIRETÓRIO]/[NOME_COMPONENTE]` ou apenas `ng g c [NOME_DIRETÓRIO]/[NOME_COMPONENTE] --spec=false`;
     - `--spec=false` serve para não gerar os arquivos de teste.
-  - Para inicia um servidor de testes: `ng serve`. 
+  - Para gerar novas classes: `ng generate class [NOME_DIRETÓRIO]/[NOME_CLASSE]`;
+  - Para gerar novos serviços: `ng generate service [NOME_DIRETÓRIO]/[NOME_SERVICO]`;
+  - Para inicia um servidor de testes: `ng serve`.
+* Internacionalização com [ngx-translate](https://github.com/ngx-translate/core):
+	- `npm install @ngx-translate/core --save`
+	- `npm install @ngx-translate/http-loader --save`
 
 > [Home](README.md)
