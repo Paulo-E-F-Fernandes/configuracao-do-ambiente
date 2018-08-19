@@ -9,9 +9,17 @@
 * `heroku version`;
 * `heroku login`;
 * `heroku keys` para verificar as chaves *SSH* cadastradas;
-* `heroku create` para criar um projeto;
+* `heroku create [APP]` para criar o projeto chamado *APP*;
 * `heroku apps` para listar os projetos;
-* `heroku apps:rename` para renomear o projeto;
+* `heroku apps:rename --app [NOME_ANTIGO] [NOME_NOVO]` para renomear o projeto *NOME_ANTIGO* para *NOME_NOVO*;
+* `heroku open` para abrir o browser na página inicial do sistema;
+* `heroku logs --tail` para exibir os logs;
+* `heroku run java --app=[NOME_PROJETO] -version` para verificar a versão do *Java* no projeto de nome *NOME_PROJETO*;
+* `heroku apps:destroy --app=[NOME_PROJETO] --confirm [NOME_PROJETO]` para excluir o projeto de nome *NOME_PROJETO*;
+* `heroku info` para verificar os dados do projeto;
+* `heroku config` para exibir o valor das variáveis de configuração;
+* `heroku maintenance:on` para iniciar o modo de manutenção do sistema no heroku. Para desativar é só trocar o **:on** por **:off**. [Heroku | Maintenance Mode](https://devcenter.heroku.com/articles/maintenance-mode);
+  * Pode se customizar a página de manutenção com o seguinte comando: `heroku config:set MAINTENANCE_PAGE_URL=//s3.amazonaws.com/<your_bucket>/your_maintenance_page.html`.
 
 ##### Angular:
 
