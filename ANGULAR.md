@@ -27,5 +27,14 @@
 * Internacionalização com [ngx-translate](https://github.com/ngx-translate/core):
 	- `npm install @ngx-translate/core --save`
 	- `npm install @ngx-translate/http-loader --save`
+* [Routing](https://angular.io/tutorial/toh-pt5) - Para configurar o **routing** no *Angular* é necessário:
+	- Adicionar o *AppRoutingModule*: `ng generate module app-routing --flat --module=app`
+		- `--flat` coloca o arquivo em ***src*/*app*** e não no seu próprio diretório;
+		- `--module=app` informa para o *Angular CLI* registrar o módulo criado no *array* de *imports* do *AppModule*.
+	- Abrir o arquivo *app-routing.module.ts*:
+		- Remover o *array* *@NgModule.declarations*, pois geralmente não há declaração de componente no `routing module`;
+		- Remover a referência para `CommonModule`;
+		- Importar `Routes` e `RouterModule` de `@angular/router`;
+		- Adicionar o *array* `@NgModule.exports` com o `RouterModule`.
 
 > [Home](README.md)
