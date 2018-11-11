@@ -19,11 +19,11 @@
   - "node_modules/bootstrap/dist/js/bootstrap.min.js"
   
 * **Grid System** - *grid options*
-  * .col-**X**
-  * .col-sm-**X** 
-  * .col-md-**X**
-  * .col-lg-**X**
-  * .col-xl-**X**
+  * .col-**X** (***Extra small*** - <576px)
+  * .col-sm-**X** (***Small*** - ≥576px)
+  * .col-md-**X** (***Medium*** - ≥768px)
+  * .col-lg-**X** (***Large*** - ≥992px)
+  * .col-xl-**X** (***Extra large*** - ≥1200px)
 	* **X** valor entre 1-12
   
 > [Home](README.md)
